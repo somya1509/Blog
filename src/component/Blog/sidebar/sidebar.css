@@ -1,0 +1,87 @@
+.widget-peru-posts-thumb {
+  position: relative;
+  overflow: hidden;
+}
+.widget-title {
+  text-transform: capitalize;
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 0;
+  background-color: #ececec;
+  padding: 10px 20px;
+  color: #262566;
+  position: relative;
+}
+.widget-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #31abfc;
+}
+.post-wrap {
+  padding: 20px;
+}
+.item {
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+.widget {
+  margin-top: 35px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
+}
+.info {
+  overflow: hidden;
+}
+.info span {
+  display: block;
+  color: #666666;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 600;
+}
+.title a {
+  display: inline-block;
+  color: #474c40;
+}
+.widget_categories ul li {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #666666;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #efefef;
+}
+.widget_categories ul li a {
+  display: block;
+  color: #666666;
+  font-weight: normal;
+  font-size: 14px;
+}
+.tagcloud a {
+  display: inline-block;
+  color: #666666;
+  font-weight: normal;
+  font-size: 14px !important;
+  padding: 7px 10px;
+  border: 1px dashed #eeeeee;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}

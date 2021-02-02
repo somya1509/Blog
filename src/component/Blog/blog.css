@@ -1,0 +1,78 @@
+.section-title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  .section-title span {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #00b0e1;
+    display: block;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    line-height: 1;
+  }
+  .section-title h2 {
+    /* color: #262566; */
+    font-weight: 500;
+  }
+  .section-title p {
+    display: block;
+    font-size: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+
+@media (max-width: 1299px) and (min-width: 1200px){
+    .blog-section .card-deck .card {
+        -ms-flex: 1 0 20%;
+        flex: 1 0 40%;
+        margin-bottom: 20px!important;
+    }
+    }
+    
+    @media (min-width: 992px) and (max-width:1199px){
+        .card-deck {
+            flex-direction: row;
+            overflow-y: scroll;
+            flex-wrap: nowrap;
+        }
+    
+        .categories {
+            flex: 0 0 350px!important
+        }
+    }
+    @media (min-width: 360px) and (max-width:720px){
+        .card-deck {
+            flex-direction: row;
+            overflow-y: scroll;
+            flex-wrap: nowrap;
+        }
+    
+        .categories {
+            flex: 0 0 350px!important
+        }
+    }
+    @media (max-width: 480px){
+    .plan-section .categories {
+        flex: 0 0 80%!important;
+        margin-left: 10px;
+    }}
+    @media (max-width: 767px){
+    .card-deck {
+    
+    flex-wrap: nowrap;
+    }}
+    @media (max-width: 991px){
+    .card-deck {
+        flex-direction: row;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        padding-bottom: 15px;
+    }}

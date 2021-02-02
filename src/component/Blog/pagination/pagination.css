@@ -1,0 +1,22 @@
+.page-navigation-area {
+    text-align: center;
+    margin: 20px auto 0;
+    display: table;
+}
+.pagination {
+    display: -moz-box;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+.page-navigation-area .page-item {
+    padding: 0 8px 0;
+}
+
+@media only screen and (max-width: 767px){
+.page-navigation-area {
+    margin-top: 0;
+    padding: 0;
+}
+}
