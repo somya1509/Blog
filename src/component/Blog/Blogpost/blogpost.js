@@ -21,8 +21,8 @@ const BlogPost = ({posts}) => {
                   <li>{post.created}</li>
                   <li>By Admin</li>
                 </ul>
-                <Link key={post.slug} to={{
-                  pathname:`/blog/${post.slug}`,
+                <Link key={post.userId} to={{
+                  pathname:`/${post.userId}`,
                   state:{post , posts}
                 }} >
                 {/* <Link key={post.slug} to={`/post/${post.slug}`}> */}

@@ -32,9 +32,9 @@ const Sidebar = ({ posts }) => {
                 <div className="info mb-2">
                   {/* <Link key={post.id} to={`/post/${post.slug}`}> */}
                   <Link
-                    key={post.slug}
+                    key={post.userId}
                     to={{
-                      pathname: `/blog/${post.slug}`,
+                      pathname: `/${post.userId}`,
                       state: { post, posts },
                     }}
                   >
