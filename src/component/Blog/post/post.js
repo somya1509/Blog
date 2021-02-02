@@ -48,7 +48,7 @@ const Post = (props) => {
                   </ul>
                 </div>
                 <h2 style={{"margin-top": '10px'}} className="">{post.title}</h2>
-                <div style={{"margin-top": '10px'}}  dangerouslySetInnerHTML={{ __html: post.articletext }} />
+                <div style={{"margin-top": '10px'}}  dangerouslySetInnerHTML={{ __html: post.body }} />
               </div>
 
               {/* <div className="post-navigation">

@@ -19,7 +19,7 @@ const BlogContainer = (props) => {
   //   setPosts(posts);
   // }, []);
   useEffect(() => {
-    fetch("http://142.93.220.223:8082/get/1/wisdompolicy.com")
+    fetch("https://jsonplaceholder.typicode.com/posts")
       .then((response) => response.json())
       .then((data) => { 
         console.log(data);
